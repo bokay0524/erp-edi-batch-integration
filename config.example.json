@@ -1,0 +1,21 @@
+{
+  "mode": "Database",
+  "outboundEncoding": "utf-8",
+  "inboundEncoding": "shift_jis",
+  "relay": {
+    "mode": "FTP",
+    "baseUriEnvironmentVariable": "EDI_RELAY_BASE_URI",
+    "usernameEnvironmentVariable": "EDI_RELAY_USERNAME",
+    "passwordEnvironmentVariable": "EDI_RELAY_PASSWORD",
+    "outboundRemotePath": "outbound",
+    "inboundRemotePath": "inbound"
+  },
+  "database": {
+    "enabled": true,
+    "serverEnvironmentVariable": "EDI_DB_SERVER",
+    "databaseEnvironmentVariable": "EDI_DB_NAME",
+    "usernameEnvironmentVariable": "EDI_DB_USERNAME",
+    "passwordEnvironmentVariable": "EDI_DB_PASSWORD",
+    "useIntegratedSecurity": false
+  }
+}

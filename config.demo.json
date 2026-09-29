@@ -1,0 +1,18 @@
+{
+  "mode": "Demo",
+  "outboundEncoding": "utf-8",
+  "inboundEncoding": "utf-8",
+  "relay": {
+    "mode": "LocalFolder",
+    "outboundPath": "relay/outbound",
+    "inboundPath": "relay/inbound",
+    "archivePath": "relay/archive",
+    "errorPath": "relay/error"
+  },
+  "database": {
+    "enabled": false,
+    "server": "localhost",
+    "database": "EdiPortfolio",
+    "useIntegratedSecurity": true
+  }
+}

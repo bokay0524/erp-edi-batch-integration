@@ -1,0 +1,30 @@
+# Runtime output
+logs/*.log
+state/*.json
+samples/processed/*
+!samples/processed/.gitkeep
+relay/outbound/*
+!relay/outbound/.gitkeep
+relay/inbound/*
+!relay/inbound/.gitkeep
+relay/archive/*
+!relay/archive/.gitkeep
+relay/error/*
+!relay/error/.gitkeep
+work/
+
+# Credentials / local config
+config.local.json
+.env
+.env.*
+!*.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SQL / PowerShell temp
+*.bak
+*.tmp
